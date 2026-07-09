@@ -1,0 +1,31 @@
+name: policy-tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup OPA
+        uses: open-policy-agent/setup-opa@v2
+        with:
+          version: latest
+
+      - name: Check formatting
+        run: opa fmt --list --fail policies/ tests/
+
+      - name: Run unit tests
+        run: opa test policies/ tests/ data/ -v
+
+      - name: Setup Regal
+        uses: StyraInc/setup-regal@v1
+        with:
+          version: latest
+
+      - name: Lint
+        run: regal lint --format github policies/ tests/

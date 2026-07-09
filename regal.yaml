@@ -1,0 +1,9 @@
+# Regal linter configuration — https://docs.styra.com/regal
+rules:
+  style:
+    line-length:
+      level: warning
+      max-line-length: 100
+  idiomatic:
+    directory-package-mismatch:
+      level: ignore   # tests/ mirrors policies/ by design
