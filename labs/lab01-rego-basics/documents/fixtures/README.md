@@ -19,4 +19,4 @@ Swap in any file below. Expected `allow` decision for the reference solution:
 | `auditor_reads_private.json` | auditor reads someone's private doc | `true` |
 | `stranger_deletes.json` | non-owner, non-admin deletes | `false` |
 
-Against the **starter** skeleton every case returns `false` — that's the point.
+Against the **starter** skeleton every case returns `false`. That's the point.

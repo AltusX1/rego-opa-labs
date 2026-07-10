@@ -1,9 +1,9 @@
-# Lab 01 — Rego Basics (Sections 2–3)
+# Lab 01 - Rego Basics (Sections 2–3)
 
 > This lab has three parts:
-> **A. Rego basics** (below) · **B. `documents/`** — translate a business policy (S3) · **C. `payment-approval/`** — graded assignment (S3).
+> **A. Rego basics** (below) · **B. `documents/`**, translate a business policy (S3) · **C. `payment-approval/`**, graded assignment (S3).
 
-## Part A — first policies
+## Part A - first policies
 
 **Course 1, Sections 2–3** · Est. time: 45 min
 
@@ -56,7 +56,7 @@ evaluate with the same input, and confirm the same decision.
 
 ---
 
-## Part B — Translate a business policy into tested Rego (S3, Lecture 3.7)
+## Part B - Translate a business policy into tested Rego (S3, Lecture 3.7)
 
 See [`documents/README.md`](documents/README.md). You get a 5-clause
 compliance memo (with a legal-hold override) and a 12-test suite; encode the
@@ -66,7 +66,7 @@ policy in `authz.documents` until all tests are green.
 opa test labs/lab01-rego-basics/documents/ -v
 ```
 
-## Part C — Assignment: payment-approval policy (S3, Lecture 3.8, graded)
+## Part C - Assignment: payment-approval policy (S3, Lecture 3.8, graded)
 
 See [`payment-approval/README.md`](payment-approval/README.md). Solo, no
 skeleton: build a tiered approval policy in `payments.approval` with your own
@@ -76,10 +76,10 @@ tests (≥8, self-approval in every tier).
 opa test labs/lab01-rego-basics/payment-approval/ -v
 ```
 
-## Part D — Collections & comprehensions (S4, Lecture 4.6)
+## Part D - Collections & comprehensions (S4, Lecture 4.6)
 
 See [`collections/README.md`](collections/README.md). Four rules over a
-user/role dataset — a filtering comprehension, a function, a partial set, and an
+user/role dataset, a filtering comprehension, a function, a partial set, and an
 object comprehension.
 
 ```bash

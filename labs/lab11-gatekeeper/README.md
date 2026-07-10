@@ -1,3 +1,3 @@
 # lab11-gatekeeper
 
-> Placeholder — materials arrive with the matching course section. See docs/course-map.md.
+> Placeholder, materials arrive with the matching course section. See docs/course-map.md.

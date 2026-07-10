@@ -1,9 +1,9 @@
-# Lab 01 · Part B — Translate a business policy into tested Rego
+# Lab 01 · Part B - Translate a business policy into tested Rego
 
 **Course 1, Section 3 (Rego Fundamentals) · Lecture 3.7 · Est. time: 20–30 min**
 
 The most realistic exercise so far: you get a policy memo written in plain
-English — the way policy actually arrives at your desk — and turn it into
+English, the way policy actually arrives at your desk, and turn it into
 tested Rego.
 
 ## The memo (from the compliance team, document-management API)
@@ -12,9 +12,9 @@ tested Rego.
 2. Any **authenticated** user may **read public** documents.
 3. A document's **owner** may **read, update, or delete** their own documents.
 4. Users on the **`auditors`** team may **read any** document, but never modify anything.
-5. **Nobody** may **delete** documents flagged **`legal-hold`** — not even admins.
+5. **Nobody** may **delete** documents flagged **`legal-hold`**, not even admins.
 
-Clause 5 is different in kind: it's an *override* — a deny that beats every
+Clause 5 is different in kind: it's an *override*, a deny that beats every
 allow.
 
 ## Input shape
@@ -31,7 +31,7 @@ allow.
 - `document.visibility` is `public` or `private`.
 - `document.flags` is an array that may contain `legal-hold`.
 - Admins and auditors are modelled as membership in `user.teams`
-  (`"admins"` / `"auditors"`).
+ (`"admins"` / `"auditors"`).
 
 ## Your task
 
@@ -56,7 +56,7 @@ opa test labs/lab01-rego-basics/documents/ -v
 
 There are **12 tests**. Against the starter, the six "should be allowed"
 cases fail (everything is denied) and the six "should be denied" cases pass
-trivially — so **don't trust green until your `permitted` rules exist.**
+trivially, so **don't trust green until your `permitted` rules exist.**
 Work clause by clause and watch the allow-cases flip green.
 
 ## Success criteria
@@ -64,8 +64,8 @@ Work clause by clause and watch the allow-cases flip green.
 - [ ] All 12 tests pass (`opa test labs/lab01-rego-basics/documents/`).
 - [ ] `make lint` is clean for these files.
 - [ ] You can point at the line where "deny overrides allow" happens and
-      explain why `not denied` is safe there, using the undefined-vs-false
-      vocabulary from Lecture 3.4.
+ explain why `not denied` is safe there, using the undefined-vs-false
+ vocabulary from Lecture 3.4.
 
 ## Stretch goal
 
@@ -75,4 +75,4 @@ operator from Lecture 3.6.
 
 ## Explore with fixtures
 
-Sample inputs are in [`fixtures/`](fixtures/) — run `opa eval` against any scenario (see that folder's README for the expected decisions).
+Sample inputs are in [`fixtures/`](fixtures/), run `opa eval` against any scenario (see that folder's README for the expected decisions).

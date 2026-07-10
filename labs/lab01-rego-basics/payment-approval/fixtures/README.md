@@ -19,5 +19,5 @@ Expected `allow` decision for a correct solution:
 | `large_both.json` | $50k order, manager + finance approve | `true` |
 
 These four cover every tier plus the self-approval override. Your own test
-suite should go further — self-approval blocked in *every* tier, missing
+suite should go further, self-approval blocked in *every* tier, missing
 manager/finance, and the boundary amounts ($500 and $10,000).

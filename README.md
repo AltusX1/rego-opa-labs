@@ -2,8 +2,8 @@
 
 Hands-on lab repository for two courses:
 
-1. **REGO Zero to Hero: Master the OPA Policy Language** — labs 01–08
-2. **Rego & OPA in Practice: Production Policy as Code** — labs 09–16
+1. **REGO Zero to Hero: Master the OPA Policy Language**, labs 01–08
+2. **Rego & OPA in Practice: Production Policy as Code**, labs 09–16
 
 All examples use **modern OPA v1 syntax**, version-pinned and updated quarterly.
 
