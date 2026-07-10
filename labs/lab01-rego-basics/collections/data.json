@@ -1,0 +1,18 @@
+{
+  "roles": {
+    "alice": "developer",
+    "sam": "admin",
+    "eve": "auditor",
+    "bob": "developer"
+  },
+  "teams": {
+    "platform": ["alice", "sam"],
+    "security": ["eve"],
+    "app": ["alice", "bob", "sam"]
+  },
+  "resources": [
+    {"id": "r1", "owner": "alice", "visibility": "private"},
+    {"id": "r2", "owner": "sam", "visibility": "public"},
+    {"id": "r3", "visibility": "private"}
+  ]
+}

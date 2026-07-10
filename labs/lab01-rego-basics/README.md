@@ -75,3 +75,13 @@ tests (≥8, self-approval in every tier).
 ```bash
 opa test labs/lab01-rego-basics/payment-approval/ -v
 ```
+
+## Part D — Collections & comprehensions (S4, Lecture 4.6)
+
+See [`collections/README.md`](collections/README.md). Four rules over a
+user/role dataset — a filtering comprehension, a function, a partial set, and an
+object comprehension.
+
+```bash
+opa test labs/lab01-rego-basics/collections/ -v
+```
