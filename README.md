@@ -52,4 +52,5 @@ OPA project, CNCF, or the Linux Foundation.
 
 - Course questions: use the course Q&A first
 - Email: naidu@altusx1.com
-- GitHub: https://github.com/AltusX1 · Docker Hub: https://app.docker.com/accounts/altusx1
+- GitHub: https://github.com/AltusX1 
+- Docker Hub: https://app.docker.com/accounts/altusx1
