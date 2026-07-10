@@ -1,0 +1,5 @@
+{
+  "user": {"name": "sam", "teams": ["admins"], "authenticated": true},
+  "action": "delete",
+  "document": {"id": "d1", "owner": "alice", "visibility": "private", "flags": ["legal-hold"]}
+}

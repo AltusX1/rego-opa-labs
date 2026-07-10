@@ -1,0 +1,8 @@
+{
+  "order": {
+    "amount": 200,
+    "requester": "alice",
+    "requester_manager": "mgr",
+    "approvers": []
+  }
+}

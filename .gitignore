@@ -20,3 +20,6 @@ bundle.tar.gz
 
 # Misc
 *.log
+
+# Instructor-only reference solutions (do not publish)
+.instructor/

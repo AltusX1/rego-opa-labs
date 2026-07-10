@@ -1,5 +1,5 @@
 {
-  "user": {"name": "naidu", "role": "developer"},
+  "user": {"name": "alice", "role": "developer"},
   "action": "read",
   "resource": "reports/q2-summary"
 }

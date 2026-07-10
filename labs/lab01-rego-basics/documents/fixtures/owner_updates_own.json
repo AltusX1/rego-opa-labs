@@ -1,0 +1,5 @@
+{
+  "user": {"name": "alice", "teams": [], "authenticated": true},
+  "action": "update",
+  "document": {"id": "d3", "owner": "alice", "visibility": "private", "flags": []}
+}

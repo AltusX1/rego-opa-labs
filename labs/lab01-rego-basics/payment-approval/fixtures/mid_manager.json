@@ -1,0 +1,10 @@
+{
+  "order": {
+    "amount": 5000,
+    "requester": "alice",
+    "requester_manager": "mgr",
+    "approvers": [
+      {"id": "mgr", "role": "manager"}
+    ]
+  }
+}

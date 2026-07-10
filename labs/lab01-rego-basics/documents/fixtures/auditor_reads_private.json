@@ -1,0 +1,5 @@
+{
+  "user": {"name": "eve", "teams": ["auditors"], "authenticated": true},
+  "action": "read",
+  "document": {"id": "d3", "owner": "alice", "visibility": "private", "flags": []}
+}

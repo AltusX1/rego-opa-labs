@@ -1,0 +1,5 @@
+{
+  "user": {"name": "bob", "teams": [], "authenticated": true},
+  "action": "delete",
+  "document": {"id": "d3", "owner": "alice", "visibility": "private", "flags": []}
+}

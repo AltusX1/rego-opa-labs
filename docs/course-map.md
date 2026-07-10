@@ -5,6 +5,8 @@
 | Lab | Course section |
 |---|---|
 | lab01-rego-basics | S2 Policy as Code & How OPA Thinks + S3 Rego Fundamentals |
+| &nbsp;&nbsp;↳ lab01/documents | S3 lab 3.7 — document authz (memo → tested Rego) |
+| &nbsp;&nbsp;↳ lab01/payment-approval | S3 assignment 3.8 — payment approval (graded) |
 | lab02-policy-testing | S6 Testing & Debugging |
 | lab03-reusable-design | S5 Reusable Policy Design |
 | lab04-broken-policies | S6 Testing & Debugging (debug drills) |
