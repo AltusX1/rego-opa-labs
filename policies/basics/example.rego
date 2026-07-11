@@ -3,6 +3,10 @@
 package basics.example
 
 # Deny by default: if no allow rule matches, the decision is false.
+# METADATA
+# title: allow
+# description: Authorization decision for the basics example.
+# entrypoint: true
 default allow := false
 
 # Admins can do anything.
