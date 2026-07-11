@@ -9,10 +9,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Setup OPA
-        uses: open-policy-agent/setup-opa@v2
+        uses: open-policy-agent/setup-opa@v2.4.0
         with:
           version: latest
 
@@ -23,7 +23,7 @@ jobs:
         run: opa test policies/ tests/ data/ -v
 
       - name: Setup Regal
-        uses: open-policy-agent/setup-regal@v1
+        uses: open-policy-agent/setup-regal@v2.0.0
         with:
           version: latest
 
