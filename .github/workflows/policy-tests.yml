@@ -23,7 +23,7 @@ jobs:
         run: opa test policies/ tests/ data/ -v
 
       - name: Setup Regal
-        uses: StyraInc/setup-regal@v1
+        uses: open-policy-agent/setup-regal@v1
         with:
           version: latest
 
