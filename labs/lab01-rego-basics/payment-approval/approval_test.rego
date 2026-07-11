@@ -1,8 +1,8 @@
-# Assignment: payment-approval policy — YOUR TESTS
+# Assignment: payment-approval policy - YOUR TESTS
 #
 # Write at least 8 tests of your own. You MUST include a self-approval case
 # in every tier (under $500, mid, and above $10k). One example is provided
-# to show the input shape — keep it, then add the rest.
+# to show the input shape - keep it, then add the rest.
 #
 # Run:  opa test labs/lab01-rego-basics/payment-approval/ -v
 package payments.approval_test

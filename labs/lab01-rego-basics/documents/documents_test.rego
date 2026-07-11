@@ -1,4 +1,4 @@
-# Lab: document-management authorization — TEST SUITE (12 tests)
+# Lab: document-management authorization - TEST SUITE (12 tests)
 #
 # Run just this lab:
 #   opa test labs/lab01-rego-basics/documents/ -v

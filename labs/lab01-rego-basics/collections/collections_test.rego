@@ -1,4 +1,4 @@
-# Lab: collections & comprehensions — TEST SUITE (8 tests)
+# Lab: collections & comprehensions - TEST SUITE (8 tests)
 #
 # Run:  opa test labs/lab01-rego-basics/collections/ -v
 # Against the STARTER the four "shape" tests fail; make them green by
